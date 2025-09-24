@@ -10,7 +10,7 @@ class SQLDatasetGenerator:
     """SQL Error Dataset Generator with Balanced Distribution"""
     
     def __init__(self, api_key: str, model: str = "gpt-3.5-turbo"):
-        self.client = openai.OpenAI(api_key="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")
+        self.client = openai.OpenAI(api_key="replace_with_your_api_key")
         self.model = model
         
         # Generation statistics
@@ -467,7 +467,7 @@ class SQLDatasetGenerator:
 def main():
     """Main function"""
     # Configuration
-    API_KEY = os.getenv('OPENAI_API_KEY', 'api_key="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')
+    API_KEY = os.getenv('OPENAI_API_KEY', 'api_key="replace_with_your_api_key"')  
     MODEL = "gpt-3.5-turbo"  
     NUM_RECORDS = 500
     
