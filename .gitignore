@@ -1,0 +1,37 @@
+# ===== PYTHON BASICS =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+*.eggs/
+
+# ===== ENVIRONMENTS =====
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# ===== TEMP / CACHE =====
+.cache/
+logs/
+outputs/
+__pycache__/
+path/
+
+# ===== STREAMLIT CONFIG / CREDENTIALS =====
+.streamlit/secrets.toml
+*.env
+.env.local
+config.yaml
+config.yml
+
