@@ -20,7 +20,7 @@ def embed_query(query: str):
     return np.array(emb).astype("float32")
 
 
-def retrieve_similar_examples(query: str, k=3):
+def retrieve_similar_examples(query: str, k=2):
     q_vec = embed_query(query)
     q_vec = q_vec.reshape(1, -1)
 
